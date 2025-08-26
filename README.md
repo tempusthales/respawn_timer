@@ -53,9 +53,11 @@ Use this file to seed or manage bosses in bulk. Ensure unique names per channel.
 ```json
 {
   "bosses": [
-    { "name": "Rook", "notes": "Spawns near the old tower" },
-    { "name": "Dragon King", "notes": "Cave entrance, 10m respawn" },
-    { "name": "Nightshade", "notes": "Roams the northern ridge" }
+    { "name": "Clamchowder Goon", "respawn": 28800 },
+    { "name": "Suzera's Toenail", "respawn": 46800 },
+    { "name": "Dumb Captain", "respawn": 54000 },
+    { "name": "Admirable Moron ", "respawn": 75600 },
+    { "name": "Harmless Retard", "respawn": 82800 }
   ]
 }
 
