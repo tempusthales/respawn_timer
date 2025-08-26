@@ -4,7 +4,7 @@
         "version": "PLCN_v2",
         "update_url": null
     },
-    "exported_at": "2025-08-26T19:16:52+00:00",
+    "exported_at": "2025-08-26T21:45:45+00:00",
     "name": "Respawn Timer",
     "author": "iamtempusthales@gmail.com",
     "uuid": "2e0194c9-df5a-4fe4-b8b8-22a9d0d19100",
@@ -39,7 +39,7 @@
             "name": "Auto Update",
             "description": "Pull the latest files on startup when using a GitHub repo.",
             "env_variable": "AUTO_UPDATE",
-            "default_value": "0",
+            "default_value": "1",
             "user_viewable": true,
             "user_editable": true,
             "rules": [
@@ -91,7 +91,7 @@
             "name": "App py file",
             "description": "The file that starts the App.",
             "env_variable": "PY_FILE",
-            "default_value": "boss_timer.py",
+            "default_value": "respawn_timer.py",
             "user_viewable": true,
             "user_editable": true,
             "rules": [
