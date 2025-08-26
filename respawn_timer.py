@@ -428,10 +428,10 @@ async def update_dashboard_message(channel_id: str):
         embed.set_footer(text="Some respawns excluded due to component limit. Use /updatetime or /reset for others.")
 
     files = []
-    logo_path = "logo.png"
+    logo_path = "cactus.png"
     if os.path.exists(logo_path):
-        embed.set_thumbnail(url="attachment://logo.png")
-        files = [discord.File(logo_path, filename="logo.png")]
+        embed.set_thumbnail(url="attachment://cactus.png")
+        files = [discord.File(logo_path, filename="cactus.png")]
         logger.info(f"Added logo to dashboard for channel {channel_id}")
 
     try:
@@ -503,10 +503,10 @@ async def setdashboard(interaction: discord.Interaction):
         embed.set_footer(text="Some respawns excluded due to component limit. Use /updatetime or /reset for others.")
 
     files = []
-    logo_path = "logo.png"
+    logo_path = "cactus.png"
     if os.path.exists(logo_path):
-        embed.set_thumbnail(url="attachment://logo.png")
-        files = [discord.File(logo_path, filename="logo.png")]
+        embed.set_thumbnail(url="attachment://cactus.png")
+        files = [discord.File(logo_path, filename="cactus.png")]
         logger.info(f"Added logo to new dashboard for channel {channel_id}")
 
     try:
